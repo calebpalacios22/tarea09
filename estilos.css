@@ -1,0 +1,86 @@
+#principal{
+    background-color: beige;
+    box-sizing: border-box;
+   
+    
+}
+#cabecera{
+    border:8px solid #8C1127;
+    flex-wrap: wrap;
+
+}
+#menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#menu li{
+margin: 15px;
+}
+#menu li a{
+    text-decoration: none;
+    color: #8C1127;
+    padding: 35px;
+    font-size: 30px;
+    font-weight: 800;
+    
+}
+#menu li a:hover{
+  color: white;
+  background-color: #8C1127;
+}
+#contenido{
+   
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#info{
+   
+    width: 33%;
+
+}
+#info h2{
+    color: #8C1127;
+}
+#form h2{
+    color: #8C1127;
+}
+#form{
+   
+    width: 33%;
+}
+#mapa{
+   
+    width: 33%;
+    
+    
+}
+#pie{
+    padding: 5px;
+    display: flex;
+    background-color: #8C1127;
+    justify-content: space-around;
+}
+#pie li a{
+    text-decoration: none;
+   color: aliceblue;
+
+}
+#pie{
+list-style: none;
+color: white;
+font-size: small;
+}
+#pie h1{
+    font-family:  Geneva;
+    font-style: italic;
+    font-size: xx-large;
+}
+#pie a:hover{
+    color: blue;
+    
+    
+}
